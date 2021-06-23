@@ -96,7 +96,7 @@ export default {
         })
         .catch((error) => {
           console.log(error);
-          this.post_status = "Errpr Posting New Candy Product, Sorry!";
+          this.post_status = "Error Posting New Candy Product, Sorry!";
         });
     },
   },
